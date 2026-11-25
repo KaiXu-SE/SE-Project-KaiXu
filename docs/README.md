@@ -6,7 +6,7 @@
 
 | 路径 | 存放内容 | 当前状态 |
 | --- | --- | --- |
-| `docs/governance/` | 项目章程、团队分工与协作制度 | 已建立 |
+| `docs/governance/` | 项目章程、过程模型选型、团队分工与协作制度 | 已建立 |
 | `docs/requirements/` | 调研计划、访谈记录、竞品分析、调研报告、用户故事、SRS 与追溯矩阵 | 已建立（调研与用户故事初稿已交付；SRS 与追溯矩阵后续建设） |
 | `docs/models/` | 需求分析模型与图源文件（用例图、类图、状态图、顺序图等） | 第 4–5 课建设 |
 | `docs/design/` | 概要设计、详细设计、API 契约与架构决策记录（ADR） | 第 6–7 课建设 |
@@ -19,6 +19,7 @@
 ### 团队与治理
 
 - [KaiXu 项目章程](governance/project-charter.md)
+- [KaiXu 软件开发过程模型选型](governance/process-model.md)
 - [团队成员与角色分工](governance/team.md)
 
 ### 需求调研与分析
