@@ -1,0 +1,628 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="system-context" name="系统上下文">
+    <mxGraphModel dx="1100" dy="633" grid="1" gridSize="10" guides="1" connect="1" page="1" pageScale="1" pageWidth="1100" pageHeight="650">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="系统上下文" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="30" y="18" width="400" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="Windows 可独立管理本地数据。跨端同步、外部候选确认及项目权限分别按当前增量验收。" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#344f65;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="54" width="1010" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="KaiXu 系统边界" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=0;fillColor=#f1f6fa;strokeColor=#7491a8;align=center;verticalAlign=top;spacingTop=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="99" width="609" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="student" value="学生用户" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="72" y="207" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="windows" value="Windows 桌面端&lt;br&gt;完整规划与录入" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#e7f2f9;" vertex="1" parent="1">
+          <mxGeometry x="219" y="151" width="200" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop-data" value="本地工作区与待同步记录&lt;br&gt;访客和各账号数据隔离" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#ebf5ee;strokeColor=#50755d;" vertex="1" parent="1">
+          <mxGeometry x="219" y="269" width="200" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="android" value="Android 客户端&lt;br&gt;登录、联网后使用" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#e7f2f9;" vertex="1" parent="1">
+          <mxGeometry x="219" y="408" width="200" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="service" value="KaiXu 服务&lt;br&gt;账号同步与项目授权" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#e7f2f9;" vertex="1" parent="1">
+          <mxGeometry x="562" y="204" width="188" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="candidates" value="候选核对&lt;br&gt;用户确认后才保存" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#e7f2f9;" vertex="1" parent="1">
+          <mxGeometry x="562" y="410" width="188" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="canvas" value="Canvas 课程作业" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#fcf3e7;strokeColor=#886c47;" vertex="1" parent="1">
+          <mxGeometry x="846" y="213" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="timetable" value="标准学期课表文件" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#fcf3e7;strokeColor=#886c47;" vertex="1" parent="1">
+          <mxGeometry x="846" y="316" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="assist" value="用户选定的群消息与 AI 服务&lt;br&gt;扩展项" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#fcf3e7;strokeColor=#886c47;" vertex="1" parent="1">
+          <mxGeometry x="846" y="414" width="210" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="scope-note" value="外部读取限授权，正式数据由用户核对后保存。" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="534" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="open-desktop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="student" target="windows" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="156" y="225" />
+              <mxPoint x="156" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="open-phone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="student" target="android" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="156" y="253" />
+              <mxPoint x="156" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="desktop-local" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="windows" target="desktop-data" value="本地管理">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop-sync" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="windows" target="service" value="联网补传／刷新">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="187" />
+              <mxPoint x="485" y="226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mobile-sync" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="android" target="service" value="授权读写">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="483" y="446" />
+              <mxPoint x="483" y="254" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="canvas-read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1" source="canvas" target="service" value="授权只读">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-canvas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="service" target="candidates" value="生成候选">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="review-timetable" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;" edge="1" parent="1" source="timetable" target="candidates" value="解析预览">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="344" />
+              <mxPoint x="822" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="review-group" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;entryX=1;entryY=0.65;" edge="1" parent="1" source="assist" target="candidates" value="字段建议">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="domain-relations" name="核心对象关系">
+    <mxGraphModel dx="1100" dy="633" grid="1" gridSize="10" guides="1" connect="1" page="1" pageScale="1" pageWidth="1100" pageHeight="650">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="核心对象关系" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="30" y="18" width="400" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="summary" value="任务截止与执行时段分开记录，课程和项目关联保持各自的记录与权限。" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;fontColor=#344f65;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="54" width="1010" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="workspace" value="工作区&lt;br&gt;课程或项目" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#e7f2f9;" vertex="1" parent="1">
+          <mxGeometry x="390" y="121" width="246" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="members" value="用户与项目成员资格&lt;br&gt;每个项目有一位所有者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#f4f8fa;" vertex="1" parent="1">
+          <mxGeometry x="760" y="121" width="252" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="task" value="任务&lt;br&gt;可无工作区" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#f4f8fa;" vertex="1" parent="1">
+          <mxGeometry x="55" y="275" width="235" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="event" value="固定事件&lt;br&gt;可无工作区" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#f4f8fa;" vertex="1" parent="1">
+          <mxGeometry x="390" y="275" width="246" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="resource" value="工作区资料&lt;br&gt;链接、文本或附件" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#f4f8fa;" vertex="1" parent="1">
+          <mxGeometry x="760" y="275" width="252" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="session" value="个人工作时段&lt;br&gt;仅本人可见" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#ebf5ee;strokeColor=#50755d;" vertex="1" parent="1">
+          <mxGeometry x="55" y="466" width="235" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="calendar" value="日／周视图&lt;br&gt;按权限合并可见事件与本人时段" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#f4f8fa;" vertex="1" parent="1">
+          <mxGeometry x="390" y="466" width="246" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attachment" value="附件版本&lt;br&gt;上传者、时间和版本号" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=1;arcSize=12;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;spacing=8;fillColor=#f4f8fa;" vertex="1" parent="1">
+          <mxGeometry x="760" y="466" width="252" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="unlink-note" value="任务删除或成员撤权后，本人时段保留起止与备注，清除共享来源与任务关联。" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="575" width="900" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="role" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="members" target="workspace" value="项目成员资格">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="task-owner" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;entryX=0.5;entryY=0;" edge="1" parent="1" source="workspace" target="task" value="可选归属">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="158" />
+              <mxPoint x="172" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="event-owner" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="workspace" target="event" value="可选归属">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="resource-owner" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.90;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="workspace" target="resource" value="归属工作区">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="611" y="236" />
+              <mxPoint x="886" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="task-sessions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="task" target="session" value="同一任务可有多个时段">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="task-links" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.85;entryX=0;entryY=0.85;" edge="1" parent="1" source="task" target="resource" value="同工作区任务与资料可多对多关联">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="391" />
+              <mxPoint x="724" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="show-event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.45;exitY=1;entryX=0.45;entryY=0;" edge="1" parent="1" source="event" target="calendar" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="show-session" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="session" target="calendar" value="本人时段">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="versions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#56738a;endArrow=none;html=1;fontColor=#244158;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="resource" target="attachment" value="附件版本历史">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="personal-planning" name="个人工作区与规划">
+    <mxGraphModel dx="1020" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1040" pageHeight="758" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="个人工作区与规划" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="30" y="18" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-label" value="主参与者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="79" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="KaiXu 系统边界" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=0;fillColor=#f1f6fa;strokeColor=#7491a8;align=center;verticalAlign=top;spacingTop=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="75" width="610" height="648" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1" value="学生用户" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#386587;fontColor=#386587;" vertex="1" parent="1">
+          <mxGeometry x="55" y="389" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1-UC-01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-01">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-1" target="UC-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-02">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-05" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-05">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-06" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-06">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-07" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-07">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-08" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-1" target="UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-09" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-1" target="UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="415" />
+              <mxPoint x="132" y="672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2" value="项目成员" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#39704e;fontColor=#39704e;" vertex="1" parent="1">
+          <mxGeometry x="55" y="504" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-2-UC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="530" />
+              <mxPoint x="152" y="234" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-08" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-08">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="530" />
+              <mxPoint x="152" y="614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-09" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-09">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="530" />
+              <mxPoint x="152" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC-01" value="UC-01 管理课程与项目工作区" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="124" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-24" value="UC-24 查看工作区概览" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-02" value="UC-02 创建和维护任务" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="276" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-05" value="UC-05 管理固定事件和查看日程" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="352" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-06" value="UC-06 将任务安排到多个私人时段" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="428" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-07" value="UC-07 发现排期冲突与超期" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="504" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-08" value="UC-08 提交任务完成与剩余估时" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="580" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-09" value="UC-09 维护工作区资料并关联任务" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="656" width="410" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="account-collaboration" name="账号与小组协作">
+    <mxGraphModel dx="1020" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1040" pageHeight="682" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="账号与小组协作" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="30" y="18" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-label" value="主参与者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="79" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="KaiXu 系统边界" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=0;fillColor=#f1f6fa;strokeColor=#7491a8;align=center;verticalAlign=top;spacingTop=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="75" width="610" height="572" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1" value="学生用户" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#386587;fontColor=#386587;" vertex="1" parent="1">
+          <mxGeometry x="55" y="161" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1-UC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="187" />
+              <mxPoint x="132" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-1" target="UC-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="187" />
+              <mxPoint x="132" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2" value="项目成员" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#39704e;fontColor=#39704e;" vertex="1" parent="1">
+          <mxGeometry x="55" y="389" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-2-UC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="415" />
+              <mxPoint x="152" y="234" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="415" />
+              <mxPoint x="152" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-2" target="UC-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="415" />
+              <mxPoint x="152" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-2" target="UC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="415" />
+              <mxPoint x="152" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-2" target="UC-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="415" />
+              <mxPoint x="152" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2-UC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="415" />
+              <mxPoint x="152" y="614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-3" value="项目所有者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#80623d;fontColor=#80623d;" vertex="1" parent="1">
+          <mxGeometry x="55" y="504" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-3-UC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#80623d;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-3" target="UC-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="530" />
+              <mxPoint x="172" y="292" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-3-UC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#80623d;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-3" target="UC-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="530" />
+              <mxPoint x="172" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC-13" value="UC-13 管理登录和桌面离线同步" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="124" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-14" value="UC-14 处理 Android 在线日常操作" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-10" value="UC-10 邀请成员和撤回访问" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="276" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-11" value="UC-11 维护共享任务与共同事件" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="352" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-25" value="UC-25 查看和汇报共享进度" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="428" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-12" value="UC-12 保留并隔离私人安排" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="504" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-18" value="UC-18 交接所有权并管理项目生命周期" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="580" width="410" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="external-integration" name="外部接入与扩展">
+    <mxGraphModel dx="1020" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1040" pageHeight="606" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="外部接入与扩展" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="30" y="18" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-label" value="主参与者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="79" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="KaiXu 系统边界" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=0;fillColor=#f1f6fa;strokeColor=#7491a8;align=center;verticalAlign=top;spacingTop=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="75" width="610" height="496" as="geometry" />
+        </mxCell>
+        <mxCell id="secondary-label" value="次参与者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="877" y="79" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1" value="学生用户" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#386587;fontColor=#386587;" vertex="1" parent="1">
+          <mxGeometry x="55" y="313" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1-UC-04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-04">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="339" />
+              <mxPoint x="132" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="339" />
+              <mxPoint x="132" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-03">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="339" />
+              <mxPoint x="132" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="339" />
+              <mxPoint x="132" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.32;" edge="1" parent="1" source="primary-1" target="UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="339" />
+              <mxPoint x="132" y="444" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="339" />
+              <mxPoint x="132" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-2" value="项目成员" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#39704e;fontColor=#39704e;" vertex="1" parent="1">
+          <mxGeometry x="55" y="428" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-2-UC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#39704e;exitX=1;exitY=0.5;entryX=0;entryY=0.6799999999999999;" edge="1" parent="1" source="primary-2" target="UC-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="152" y="454" />
+              <mxPoint x="152" y="462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="secondary-1" value="Canvas" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#665383;fontColor=#665383;" vertex="1" parent="1">
+          <mxGeometry x="908" y="123" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="secondary-1-UC-04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#665383;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="secondary-1" target="UC-04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="secondary-2" value="AI 服务" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#665383;fontColor=#665383;" vertex="1" parent="1">
+          <mxGeometry x="908" y="275" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="secondary-2-UC-03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#665383;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="secondary-2" target="UC-03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-04" value="UC-04 拉取并确认 Canvas 作业" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="124" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-19" value="UC-19 预览并导入标准课表" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-03" value="UC-03 核对群消息提取候选" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="276" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-15" value="UC-15 查看并确认规则排程草案" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="352" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-16" value="UC-16 管理附件版本与授权下载" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="428" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-17" value="UC-17 记录 Android 在线番茄钟" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="504" width="410" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="quality-acceptance" name="非功能验收">
+    <mxGraphModel dx="1020" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1040" pageHeight="530" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="非功能验收" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="30" y="18" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-label" value="主参与者" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="79" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="KaiXu 系统边界" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;rounded=0;fillColor=#f1f6fa;strokeColor=#7491a8;align=center;verticalAlign=top;spacingTop=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="75" width="610" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1" value="验收人员" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#284e71;fillColor=#ffffff;strokeColor=#386587;fontColor=#386587;" vertex="1" parent="1">
+          <mxGeometry x="55" y="275" width="40" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1-UC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="301" />
+              <mxPoint x="132" y="149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="301" />
+              <mxPoint x="132" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-1-UC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="301" />
+              <mxPoint x="132" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="primary-1-UC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#6b8298;endArrow=none;html=1;strokeColor=#386587;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="primary-1" target="UC-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="301" />
+              <mxPoint x="132" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC-20" value="UC-20 测量常用操作性能" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="124" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-21" value="UC-21 验证服务端权限与私密数据隔离" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-22" value="UC-22 验证保存重试与版本一致性" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="276" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-23" value="UC-23 验证快速录入和资料打开步数" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="352" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UC-26" value="UC-26 验证本地库升级和回退" style="fontFamily=Arial;fontSize=15;fontColor=#152b45;html=1;ellipse;whiteSpace=wrap;strokeColor=#4a6c8d;fillColor=#ffffff;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="290" y="428" width="410" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
