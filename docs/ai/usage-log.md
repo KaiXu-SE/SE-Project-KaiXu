@@ -11,5 +11,7 @@
 | 2026-11-26 | [第 3 课 SRS 草稿及需求模型][issue-11] | OpenAI Codex 辅助梳理 PR 评审涉及的用户时区、日期边界和课表来源时区。 | 已检查文档结构和引用，校核跨日及时间转换的样例预期，客户端行为待对应增量实测。 |
 | 2026-11-27 | [第 3 课 SRS 草稿及需求模型][issue-11] | OpenAI Codex 辅助按用户故事编号回填追溯矩阵的 Issue 链接。 | 已核对 80 行需求与 25 个用户故事 Issue 的对应关系及链接。 |
 | 2026-11-27 | [第 3 课 SRS 草稿及需求模型][issue-11] | OpenAI Codex 辅助简化 SRS 的变更记录表格。 | 已核对七条记录的版本、日期及原因与影响，并通过文档结构检查。 |
+| 2026-11-27 | [补充 KaiXu 用例图 PDF 预览][issue-41] | OpenAI Codex 辅助从 draw.io 图源生成六页 PDF 阅读版并添加文档入口。 | 已逐页检查预览，核对图页顺序、文字和 26 个用例编号。 |
 
 [issue-11]: https://github.com/KaiXu-SE/SE-Project-KaiXu/issues/11
+[issue-41]: https://github.com/KaiXu-SE/SE-Project-KaiXu/issues/41
